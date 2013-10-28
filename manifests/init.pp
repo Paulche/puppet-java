@@ -6,8 +6,8 @@
 class java {
   include boxen::config
 
-  $jre_url = 'https://s3.amazonaws.com/pchechetin-public/java/jre-7u45-macosx-x64.dmg'
-  $jdk_url = 'https://s3.amazonaws.com/pchechetin-public/java/jdk-7u45-macosx-x64.dmg'
+  $jre_url = 'https://s3.amazonaws.com/pchechetin-public/jre-7u45-macosx-x64.dmg'
+  $jdk_url = 'https://s3.amazonaws.com/pchechetin-public/jdk-7u45-macosx-x64.dmg'
   $wrapper = "${boxen::config::bindir}/java"
 
   package {
